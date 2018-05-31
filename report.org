@@ -1,0 +1,384 @@
+#+TITLE: Test Report
+
+Report generated on 09-Apr-2018 at 15:09:44
+by[[https://pypi.python.org/pypi/pytest-html][pytest-html]] v1.16.1
+
+** Environment
+
+| Packages   | {'pytest': '3.5.0', 'pluggy': '0.6.0', 'py': '1.5.3'}        |
+| Platform   | Linux-4.10.0-38-generic-x86\_64-with-LinuxMint-18.3-sylvia   |
+| Plugins    | {'html': '1.16.1', 'metadata': '1.6.0', 'qt': '2.3.1'}       |
+| Python     | 3.5.2                                                        |
+
+** Summary
+
+21 tests ran in 50.37 seconds.
+
+(Un)check the boxes to filter the results.
+
+21 passed, 0 skipped, 0 failed, 0 errors, 0 expected failures, 0
+unexpected passes
+
+** Results
+
+Result
+
+Test
+
+Duration
+
+Links
+
+No results found. Try to check the filters
+
+Passed
+
+Testing/test\_CTData.py::test\_load\_data
+
+0.13
+
+#+BEGIN_HTML
+  <div class="empty log">
+#+END_HTML
+
+No log output captured.
+
+#+BEGIN_HTML
+  </div>
+#+END_HTML
+
+Passed
+
+Testing/test\_CTData.py::test\_NoDataFoundException
+
+0.00
+
+#+BEGIN_HTML
+  <div class="empty log">
+#+END_HTML
+
+No log output captured.
+
+#+BEGIN_HTML
+  </div>
+#+END_HTML
+
+Passed
+
+Testing/test\_CTData.py::test\_clean\_data\_maximum\_removed
+
+0.00
+
+#+BEGIN_HTML
+  <div class="empty log">
+#+END_HTML
+
+No log output captured.
+
+#+BEGIN_HTML
+  </div>
+#+END_HTML
+
+Passed
+
+Testing/test\_CTData.py::test\_clean\_data\_minimum\_removed
+
+0.00
+
+#+BEGIN_HTML
+  <div class="empty log">
+#+END_HTML
+
+No log output captured.
+
+#+BEGIN_HTML
+  </div>
+#+END_HTML
+
+Passed
+
+Testing/test\_CTData.py::test\_load\_additional\_data
+
+1.30
+
+#+BEGIN_HTML
+  <div class="empty log">
+#+END_HTML
+
+No log output captured.
+
+#+BEGIN_HTML
+  </div>
+#+END_HTML
+
+Passed
+
+Testing/test\_CTData.py::test\_load\_additional\_data\_no\_data
+
+0.00
+
+#+BEGIN_HTML
+  <div class="empty log">
+#+END_HTML
+
+No log output captured.
+
+#+BEGIN_HTML
+  </div>
+#+END_HTML
+
+Passed
+
+Testing/test\_CTData.py::test\_aggregate\_spike\_averages
+
+0.03
+
+#+BEGIN_HTML
+  <div class="empty log">
+#+END_HTML
+
+No log output captured.
+
+#+BEGIN_HTML
+  </div>
+#+END_HTML
+
+Passed
+
+Testing/test\_Data\_transforms.py::test\_standardise\_data
+
+0.01
+
+#+BEGIN_HTML
+  <div class="empty log">
+#+END_HTML
+
+No log output captured.
+
+#+BEGIN_HTML
+  </div>
+#+END_HTML
+
+Passed
+
+Testing/test\_Data\_transforms.py::test\_perform\_pca
+
+0.02
+
+#+BEGIN_HTML
+  <div class="empty log">
+#+END_HTML
+
+No log output captured.
+
+#+BEGIN_HTML
+  </div>
+#+END_HTML
+
+Passed
+
+Testing/test\_Data\_transforms.py::test\_box\_cox\_data
+
+0.01
+
+#+BEGIN_HTML
+  <div class="empty log">
+#+END_HTML
+
+No log output captured.
+
+#+BEGIN_HTML
+  </div>
+#+END_HTML
+
+Passed
+
+Testing/test\_Data\_transforms.py::test\_pca\_to\_table
+
+0.01
+
+#+BEGIN_HTML
+  <div class="empty log">
+#+END_HTML
+
+No log output captured.
+
+#+BEGIN_HTML
+  </div>
+#+END_HTML
+
+Passed
+
+Testing/test\_Graphing.py::test\_plot\_difference\_of\_means
+
+0.11
+
+#+BEGIN_HTML
+  <div class="log">
+#+END_HTML
+
+------------------------------ Captured log setup
+------------------------------\\
+sampling.py 390 INFO Auto-assigning NUTS sampler... sampling.py 1280
+INFO Initializing NUTS using jitter+adapt\_diag... sampling.py 439 INFO
+Multiprocess sampling (2 chains in 2 jobs) sampling.py 162 INFO NUTS:
+[nu\_minus\_one\_log\_\_, T\_dicoccum\_\_std\_interval\_\_,
+T\_monococcum\_\_std\_interval\_\_, T\_dicoccum\_\_mean,
+T\_monococcum\_\_mean]
+
+#+BEGIN_HTML
+  </div>
+#+END_HTML
+
+Passed
+
+Testing/test\_Graphing.py::test\_plot\_boxplot\_as\_dataframe
+
+0.05
+
+#+BEGIN_HTML
+  <div class="empty log">
+#+END_HTML
+
+No log output captured.
+
+#+BEGIN_HTML
+  </div>
+#+END_HTML
+
+Passed
+
+Testing/test\_Graphing.py::test\_plot\_boxplot\_as\_object
+
+0.05
+
+#+BEGIN_HTML
+  <div class="empty log">
+#+END_HTML
+
+No log output captured.
+
+#+BEGIN_HTML
+  </div>
+#+END_HTML
+
+Passed
+
+Testing/test\_Graphing.py::test\_plot\_qqplot
+
+0.00
+
+#+BEGIN_HTML
+  <div class="empty log">
+#+END_HTML
+
+No log output captured.
+
+#+BEGIN_HTML
+  </div>
+#+END_HTML
+
+Passed
+
+Testing/test\_Graphing.py::test\_plot\_histogram\_as\_object
+
+0.02
+
+#+BEGIN_HTML
+  <div class="empty log">
+#+END_HTML
+
+No log output captured.
+
+#+BEGIN_HTML
+  </div>
+#+END_HTML
+
+Passed
+
+Testing/test\_Graphing.py::test\_plot\_histogram\_as\_dataframe
+
+0.02
+
+#+BEGIN_HTML
+  <div class="empty log">
+#+END_HTML
+
+No log output captured.
+
+#+BEGIN_HTML
+  </div>
+#+END_HTML
+
+Passed
+
+Testing/test\_Graphing.py::test\_plot\_pca
+
+0.17
+
+#+BEGIN_HTML
+  <div class="empty log">
+#+END_HTML
+
+No log output captured.
+
+#+BEGIN_HTML
+  </div>
+#+END_HTML
+
+Passed
+
+Testing/test\_Statistical\_tests.py::test\_baysian\_hypothesis\_test
+
+10.76
+
+#+BEGIN_HTML
+  <div class="log">
+#+END_HTML
+
+------------------------------ Captured log call
+-------------------------------\\
+sampling.py 390 INFO Auto-assigning NUTS sampler... sampling.py 1280
+INFO Initializing NUTS using jitter+adapt\_diag... sampling.py 439 INFO
+Multiprocess sampling (2 chains in 2 jobs) sampling.py 162 INFO NUTS:
+[nu\_minus\_one\_log\_\_, T\_dicoccum\_\_std\_interval\_\_,
+T\_monococcum\_\_std\_interval\_\_, T\_dicoccum\_\_mean,
+T\_monococcum\_\_mean] report.py 141 WARNING The acceptance probability
+does not match the target. It is 0.8800386180599072, but should be close
+to 0.8. Try to increase the number of tuning steps.
+
+#+BEGIN_HTML
+  </div>
+#+END_HTML
+
+Passed
+
+Testing/test\_Statistical\_tests.py::test\_test\_normality
+
+0.00
+
+#+BEGIN_HTML
+  <div class="empty log">
+#+END_HTML
+
+No log output captured.
+
+#+BEGIN_HTML
+  </div>
+#+END_HTML
+
+Passed
+
+Testing/test\_Statistical\_tests.py::test\_t\_test
+
+0.00
+
+#+BEGIN_HTML
+  <div class="empty log">
+#+END_HTML
+
+No log output captured.
+
+#+BEGIN_HTML
+  </div>
+#+END_HTML
